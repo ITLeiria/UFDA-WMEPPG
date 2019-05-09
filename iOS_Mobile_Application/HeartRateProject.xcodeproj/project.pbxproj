@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA036F1422527A5B00463BD9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA036F1322527A5B00463BD9 /* Item.swift */; };
+		EA042C4F2256572900C4A1B0 /* sp.png in Resources */ = {isa = PBXBuildFile; fileRef = EA042C4E2256572900C4A1B0 /* sp.png */; };
+		EA10CE8B21ACCB6D00BB75AD /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA10CE8A21ACCB6D00BB75AD /* HistoryTableViewCell.xib */; };
+		EA10CE8D21ACCB8500BB75AD /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10CE8C21ACCB8500BB75AD /* HistoryTableViewCell.swift */; };
+		EA1CA9C3215BD9D5008B3CC9 /* ModelHeartRateMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA1CA99F215BD897008B3CC9 /* ModelHeartRateMonitor.xcdatamodeld */; };
+		EA1D6C672188926000136EAA /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D6C662188926000136EAA /* CustomTabBar.swift */; };
+		EA1D6C692188C9B700136EAA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D6C682188C9B700136EAA /* HistoryViewController.swift */; };
+		EA1D6C6B2188CF0B00136EAA /* CoreDataHeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D6C6A2188CF0B00136EAA /* CoreDataHeartRate.swift */; };
+		EA1EA17321B851290039BBBD /* BluetoothGATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1EA17221B851290039BBBD /* BluetoothGATT.swift */; };
+		EA283CCC21AEF0E900D158D5 /* HistoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA283CCB21AEF0E900D158D5 /* HistoryDetailsViewController.swift */; };
+		EA2ED2E521BF3C960019573E /* ManagedObjectCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2ED2E421BF3C960019573E /* ManagedObjectCoreData.swift */; };
+		EA2EFB5E207BC14400B6D417 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EFB5D207BC14400B6D417 /* LoadingViewController.swift */; };
+		EA2EFB60207BC4C400B6D417 /* HRSensorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EFB5F207BC4C400B6D417 /* HRSensorDetailsViewController.swift */; };
+		EA33D9D322493DFC00E4E9EA /* ExportHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33D9D222493DFC00E4E9EA /* ExportHistoryViewController.swift */; };
+		EA45F5E4216BB186003B6934 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45F5E3216BB186003B6934 /* ProgressView.swift */; };
+		EA45F5E6216BB2D5003B6934 /* UIColor+StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45F5E5216BB2D5003B6934 /* UIColor+StyleGuide.swift */; };
+		EA678F9222702B230034FD16 /* TutorialSelectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA678F9122702B230034FD16 /* TutorialSelectDeviceViewController.swift */; };
+		EA686ED821AE2490005EDEE5 /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA686ED721AE2490005EDEE5 /* FontAwesome_swift.framework */; };
+		EA74523122384BC4001BCDE4 /* HRDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74523022384BC4001BCDE4 /* HRDatabase.swift */; };
+		EA74523422389A7D001BCDE4 /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74523322389A7D001BCDE4 /* HealthData.swift */; };
+		EA74523622389E4F001BCDE4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74523522389E4F001BCDE4 /* DataService.swift */; };
+		EA7D5A1B219C8A770034ED44 /* HeartRateMonitor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D5A19219C8A770034ED44 /* HeartRateMonitor+CoreDataClass.swift */; };
+		EA7D5A1C219C8A770034ED44 /* HeartRateMonitor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D5A1A219C8A770034ED44 /* HeartRateMonitor+CoreDataProperties.swift */; };
+		EA7D5A1E219DD2000034ED44 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D5A1D219DD2000034ED44 /* Util.swift */; };
+		EA7FD072227062290054F030 /* TutorialHRSensorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FD071227062290054F030 /* TutorialHRSensorDetailsViewController.swift */; };
+		EA7FD07422707AC30054F030 /* SelectBodySensorLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FD07322707AC30054F030 /* SelectBodySensorLocationViewController.swift */; };
+		EA8E7F052044D5B400BF4E34 /* DevicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E7F042044D5B400BF4E34 /* DevicesTableViewController.swift */; };
+		EA8E7F082045952E00BF4E34 /* BLEDevicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E7F062045952E00BF4E34 /* BLEDevicesTableViewCell.swift */; };
+		EA8E7F092045952E00BF4E34 /* BLEDevicesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8E7F072045952E00BF4E34 /* BLEDevicesTableViewCell.xib */; };
+		EA96085C2277353400369A34 /* HRSensorDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96085B2277353400369A34 /* HRSensorDetailTableViewCell.swift */; };
+		EA992FBB22381A9300B9270F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA992FBA22381A9200B9270F /* GoogleService-Info.plist */; };
+		EAA2D0B721755DE300FA8A9B /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2D0AD21755DE300FA8A9B /* Person+CoreDataClass.swift */; };
+		EAA2D0B821755DE300FA8A9B /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2D0AE21755DE300FA8A9B /* Person+CoreDataProperties.swift */; };
+		EAA2D0C22175671C00FA8A9B /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2D0C12175671C00FA8A9B /* PersonData.swift */; };
+		EAA2D0C42175683A00FA8A9B /* HeartRateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2D0C32175683A00FA8A9B /* HeartRateData.swift */; };
+		EAABA32820BC618B001F300B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAABA32720BC618B001F300B /* Assets.xcassets */; };
+		EAD46F671EEE398E0063D740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD46F661EEE398E0063D740 /* AppDelegate.swift */; };
+		EAD46F6C1EEE398E0063D740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD46F6A1EEE398E0063D740 /* Main.storyboard */; };
+		EAD46F711EEE398E0063D740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD46F6F1EEE398E0063D740 /* LaunchScreen.storyboard */; };
+		EAF0E07B211A616000941450 /* BLEUnavailableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0E07A211A616000941450 /* BLEUnavailableViewController.swift */; };
+		EAFFEA042170F121003D89DF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EAFFEA032170F121003D89DF /* Podfile */; };
+		F3F4172F9C72278897D5AC9D /* Pods_HeartRateProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99A22D40C20F3740B619A2A /* Pods_HeartRateProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		135D97B615BA21125F62FCA1 /* Pods-HeartRateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeartRateProject/Pods-HeartRateProject.release.xcconfig"; sourceTree = "<group>"; };
+		7F92CEF451DB4B99293E4EF8 /* Pods-HeartRateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeartRateProject/Pods-HeartRateProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A99A22D40C20F3740B619A2A /* Pods_HeartRateProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartRateProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA036F1322527A5B00463BD9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EA042C4E2256572900C4A1B0 /* sp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sp.png; sourceTree = "<group>"; };
+		EA042C542256651800C4A1B0 /* FirebaseHR+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirebaseHR+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EA042C552256651800C4A1B0 /* FirebaseHR+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirebaseHR+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EA10CE8A21ACCB6D00BB75AD /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		EA10CE8C21ACCB8500BB75AD /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		EA1CA9A0215BD897008B3CC9 /* ModelHeartRateMonitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelHeartRateMonitor.xcdatamodel; sourceTree = "<group>"; };
+		EA1D6C662188926000136EAA /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		EA1D6C682188C9B700136EAA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EA1D6C6A2188CF0B00136EAA /* CoreDataHeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHeartRate.swift; sourceTree = "<group>"; };
+		EA1EA17221B851290039BBBD /* BluetoothGATT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothGATT.swift; sourceTree = "<group>"; };
+		EA283CCB21AEF0E900D158D5 /* HistoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailsViewController.swift; sourceTree = "<group>"; };
+		EA2ED2E421BF3C960019573E /* ManagedObjectCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObjectCoreData.swift; sourceTree = "<group>"; };
+		EA2EFB5D207BC14400B6D417 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		EA2EFB5F207BC4C400B6D417 /* HRSensorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRSensorDetailsViewController.swift; sourceTree = "<group>"; };
+		EA33D9D222493DFC00E4E9EA /* ExportHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportHistoryViewController.swift; sourceTree = "<group>"; };
+		EA45F5E3216BB186003B6934 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		EA45F5E5216BB2D5003B6934 /* UIColor+StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+StyleGuide.swift"; sourceTree = "<group>"; };
+		EA678F8F226E14A60034FD16 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		EA678F90226E14A70034FD16 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EA678F9122702B230034FD16 /* TutorialSelectDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialSelectDeviceViewController.swift; sourceTree = "<group>"; };
+		EA686ED721AE2490005EDEE5 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74523022384BC4001BCDE4 /* HRDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRDatabase.swift; sourceTree = "<group>"; };
+		EA74523322389A7D001BCDE4 /* HealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthData.swift; sourceTree = "<group>"; };
+		EA74523522389E4F001BCDE4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EA7D5A19219C8A770034ED44 /* HeartRateMonitor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeartRateMonitor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EA7D5A1A219C8A770034ED44 /* HeartRateMonitor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeartRateMonitor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EA7D5A1D219DD2000034ED44 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		EA7FD071227062290054F030 /* TutorialHRSensorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialHRSensorDetailsViewController.swift; sourceTree = "<group>"; };
+		EA7FD07322707AC30054F030 /* SelectBodySensorLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBodySensorLocationViewController.swift; sourceTree = "<group>"; };
+		EA8E7F042044D5B400BF4E34 /* DevicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesTableViewController.swift; sourceTree = "<group>"; };
+		EA8E7F062045952E00BF4E34 /* BLEDevicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDevicesTableViewCell.swift; sourceTree = "<group>"; };
+		EA8E7F072045952E00BF4E34 /* BLEDevicesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLEDevicesTableViewCell.xib; sourceTree = "<group>"; };
+		EA96085B2277353400369A34 /* HRSensorDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRSensorDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EA992FBA22381A9200B9270F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAA2D0AD21755DE300FA8A9B /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EAA2D0AE21755DE300FA8A9B /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EAA2D0C12175671C00FA8A9B /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		EAA2D0C32175683A00FA8A9B /* HeartRateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateData.swift; sourceTree = "<group>"; };
+		EAABA32720BC618B001F300B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD46F631EEE398E0063D740 /* HeartRateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD46F661EEE398E0063D740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAD46F6B1EEE398E0063D740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD46F701EEE398E0063D740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAD46F721EEE398E0063D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF0E07A211A616000941450 /* BLEUnavailableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEUnavailableViewController.swift; sourceTree = "<group>"; };
+		EAFFEA032170F121003D89DF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD46F601EEE398E0063D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA686ED821AE2490005EDEE5 /* FontAwesome_swift.framework in Frameworks */,
+				F3F4172F9C72278897D5AC9D /* Pods_HeartRateProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E85B87F783061D2FEC4E84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F92CEF451DB4B99293E4EF8 /* Pods-HeartRateProject.debug.xcconfig */,
+				135D97B615BA21125F62FCA1 /* Pods-HeartRateProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A18819078285DE9E8AD0692D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA686ED721AE2490005EDEE5 /* FontAwesome_swift.framework */,
+				A99A22D40C20F3740B619A2A /* Pods_HeartRateProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA40734F2242099200099314 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA407350224209D100099314 /* TableViewCell */,
+				EA1D6C682188C9B700136EAA /* HistoryViewController.swift */,
+				EA283CCB21AEF0E900D158D5 /* HistoryDetailsViewController.swift */,
+				EA2EFB5D207BC14400B6D417 /* LoadingViewController.swift */,
+				EA8E7F042044D5B400BF4E34 /* DevicesTableViewController.swift */,
+				EA2EFB5F207BC4C400B6D417 /* HRSensorDetailsViewController.swift */,
+				EAF0E07A211A616000941450 /* BLEUnavailableViewController.swift */,
+				EA45F5E3216BB186003B6934 /* ProgressView.swift */,
+				EA1D6C662188926000136EAA /* CustomTabBar.swift */,
+				EA33D9D222493DFC00E4E9EA /* ExportHistoryViewController.swift */,
+				EA678F9122702B230034FD16 /* TutorialSelectDeviceViewController.swift */,
+				EA7FD071227062290054F030 /* TutorialHRSensorDetailsViewController.swift */,
+				EA7FD07322707AC30054F030 /* SelectBodySensorLocationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA407350224209D100099314 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E7F062045952E00BF4E34 /* BLEDevicesTableViewCell.swift */,
+				EA8E7F072045952E00BF4E34 /* BLEDevicesTableViewCell.xib */,
+				EA10CE8A21ACCB6D00BB75AD /* HistoryTableViewCell.xib */,
+				EA10CE8C21ACCB8500BB75AD /* HistoryTableViewCell.swift */,
+				EA96085B2277353400369A34 /* HRSensorDetailTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		EA434E7E21754515008165DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA992FBA22381A9200B9270F /* GoogleService-Info.plist */,
+				EA1CA99F215BD897008B3CC9 /* ModelHeartRateMonitor.xcdatamodeld */,
+				EA042C4E2256572900C4A1B0 /* sp.png */,
+				EAABA32720BC618B001F300B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA434E7F21754645008165DD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA042C542256651800C4A1B0 /* FirebaseHR+CoreDataClass.swift */,
+				EA042C552256651800C4A1B0 /* FirebaseHR+CoreDataProperties.swift */,
+				EA74523222389A40001BCDE4 /* Models */,
+				EA7D5A19219C8A770034ED44 /* HeartRateMonitor+CoreDataClass.swift */,
+				EA7D5A1A219C8A770034ED44 /* HeartRateMonitor+CoreDataProperties.swift */,
+				EAA2D0AD21755DE300FA8A9B /* Person+CoreDataClass.swift */,
+				EAA2D0AE21755DE300FA8A9B /* Person+CoreDataProperties.swift */,
+				EAA2D0C12175671C00FA8A9B /* PersonData.swift */,
+				EAA2D0C32175683A00FA8A9B /* HeartRateData.swift */,
+				EA1D6C6A2188CF0B00136EAA /* CoreDataHeartRate.swift */,
+				EA2ED2E421BF3C960019573E /* ManagedObjectCoreData.swift */,
+				EA74523522389E4F001BCDE4 /* DataService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EA74523222389A40001BCDE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA74523022384BC4001BCDE4 /* HRDatabase.swift */,
+				EA74523322389A7D001BCDE4 /* HealthData.swift */,
+				EA036F1322527A5B00463BD9 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EAD46F5A1EEE398E0063D740 = {
+			isa = PBXGroup;
+			children = (
+				EAFFEA032170F121003D89DF /* Podfile */,
+				EAD46F651EEE398E0063D740 /* HeartRateProject */,
+				EAD46F641EEE398E0063D740 /* Products */,
+				26E85B87F783061D2FEC4E84 /* Pods */,
+				A18819078285DE9E8AD0692D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD46F641EEE398E0063D740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD46F631EEE398E0063D740 /* HeartRateProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD46F651EEE398E0063D740 /* HeartRateProject */ = {
+			isa = PBXGroup;
+			children = (
+				EA434E7E21754515008165DD /* Resources */,
+				EA434E7F21754645008165DD /* Data */,
+				EA40734F2242099200099314 /* Controllers */,
+				EAD46F6A1EEE398E0063D740 /* Main.storyboard */,
+				EAD46F661EEE398E0063D740 /* AppDelegate.swift */,
+				EAD46F6F1EEE398E0063D740 /* LaunchScreen.storyboard */,
+				EAD46F721EEE398E0063D740 /* Info.plist */,
+				EA45F5E5216BB2D5003B6934 /* UIColor+StyleGuide.swift */,
+				EA7D5A1D219DD2000034ED44 /* Util.swift */,
+				EA1EA17221B851290039BBBD /* BluetoothGATT.swift */,
+			);
+			path = HeartRateProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD46F621EEE398E0063D740 /* HeartRateProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD46F751EEE398E0063D740 /* Build configuration list for PBXNativeTarget "HeartRateProject" */;
+			buildPhases = (
+				7592211EDA55F0CB748A5667 /* [CP] Check Pods Manifest.lock */,
+				EAD46F5F1EEE398E0063D740 /* Sources */,
+				EAD46F601EEE398E0063D740 /* Frameworks */,
+				EAD46F611EEE398E0063D740 /* Resources */,
+				5EDB49624B354BCA544E4856 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartRateProject;
+			productName = BLETestProject;
+			productReference = EAD46F631EEE398E0063D740 /* HeartRateProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD46F5B1EEE398E0063D740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MFC;
+				TargetAttributes = {
+					EAD46F621EEE398E0063D740 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H224JX9UQG;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EAD46F5E1EEE398E0063D740 /* Build configuration list for PBXProject "HeartRateProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				"pt-PT",
+			);
+			mainGroup = EAD46F5A1EEE398E0063D740;
+			productRefGroup = EAD46F641EEE398E0063D740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD46F621EEE398E0063D740 /* HeartRateProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD46F611EEE398E0063D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA042C4F2256572900C4A1B0 /* sp.png in Resources */,
+				EAFFEA042170F121003D89DF /* Podfile in Resources */,
+				EA992FBB22381A9300B9270F /* GoogleService-Info.plist in Resources */,
+				EAD46F711EEE398E0063D740 /* LaunchScreen.storyboard in Resources */,
+				EA8E7F092045952E00BF4E34 /* BLEDevicesTableViewCell.xib in Resources */,
+				EAD46F6C1EEE398E0063D740 /* Main.storyboard in Resources */,
+				EA10CE8B21ACCB6D00BB75AD /* HistoryTableViewCell.xib in Resources */,
+				EAABA32820BC618B001F300B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EDB49624B354BCA544E4856 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HeartRateProject/Pods-HeartRateProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeartRateProject/Pods-HeartRateProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7592211EDA55F0CB748A5667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartRateProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD46F5F1EEE398E0063D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1D6C692188C9B700136EAA /* HistoryViewController.swift in Sources */,
+				EA33D9D322493DFC00E4E9EA /* ExportHistoryViewController.swift in Sources */,
+				EAA2D0B821755DE300FA8A9B /* Person+CoreDataProperties.swift in Sources */,
+				EA1D6C6B2188CF0B00136EAA /* CoreDataHeartRate.swift in Sources */,
+				EA7D5A1C219C8A770034ED44 /* HeartRateMonitor+CoreDataProperties.swift in Sources */,
+				EA2EFB60207BC4C400B6D417 /* HRSensorDetailsViewController.swift in Sources */,
+				EA7FD07422707AC30054F030 /* SelectBodySensorLocationViewController.swift in Sources */,
+				EA2EFB5E207BC14400B6D417 /* LoadingViewController.swift in Sources */,
+				EA8E7F082045952E00BF4E34 /* BLEDevicesTableViewCell.swift in Sources */,
+				EAD46F671EEE398E0063D740 /* AppDelegate.swift in Sources */,
+				EA96085C2277353400369A34 /* HRSensorDetailTableViewCell.swift in Sources */,
+				EA74523622389E4F001BCDE4 /* DataService.swift in Sources */,
+				EA74523422389A7D001BCDE4 /* HealthData.swift in Sources */,
+				EA45F5E6216BB2D5003B6934 /* UIColor+StyleGuide.swift in Sources */,
+				EAA2D0C22175671C00FA8A9B /* PersonData.swift in Sources */,
+				EA678F9222702B230034FD16 /* TutorialSelectDeviceViewController.swift in Sources */,
+				EAF0E07B211A616000941450 /* BLEUnavailableViewController.swift in Sources */,
+				EA1D6C672188926000136EAA /* CustomTabBar.swift in Sources */,
+				EA7D5A1B219C8A770034ED44 /* HeartRateMonitor+CoreDataClass.swift in Sources */,
+				EA1CA9C3215BD9D5008B3CC9 /* ModelHeartRateMonitor.xcdatamodeld in Sources */,
+				EAA2D0C42175683A00FA8A9B /* HeartRateData.swift in Sources */,
+				EA283CCC21AEF0E900D158D5 /* HistoryDetailsViewController.swift in Sources */,
+				EA10CE8D21ACCB8500BB75AD /* HistoryTableViewCell.swift in Sources */,
+				EA1EA17321B851290039BBBD /* BluetoothGATT.swift in Sources */,
+				EA2ED2E521BF3C960019573E /* ManagedObjectCoreData.swift in Sources */,
+				EA7D5A1E219DD2000034ED44 /* Util.swift in Sources */,
+				EAA2D0B721755DE300FA8A9B /* Person+CoreDataClass.swift in Sources */,
+				EA8E7F052044D5B400BF4E34 /* DevicesTableViewController.swift in Sources */,
+				EA7FD072227062290054F030 /* TutorialHRSensorDetailsViewController.swift in Sources */,
+				EA74523122384BC4001BCDE4 /* HRDatabase.swift in Sources */,
+				EA45F5E4216BB186003B6934 /* ProgressView.swift in Sources */,
+				EA036F1422527A5B00463BD9 /* Item.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAD46F6A1EEE398E0063D740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD46F6B1EEE398E0063D740 /* Base */,
+				EA678F8F226E14A60034FD16 /* pt-PT */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD46F6F1EEE398E0063D740 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD46F701EEE398E0063D740 /* Base */,
+				EA678F90226E14A70034FD16 /* pt-PT */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD46F731EEE398E0063D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAD46F741EEE398E0063D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD46F761EEE398E0063D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F92CEF451DB4B99293E4EF8 /* Pods-HeartRateProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H224JX9UQG;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/HeartRateProject/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.ipleiria.myhealthpulses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EAD46F771EEE398E0063D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135D97B615BA21125F62FCA1 /* Pods-HeartRateProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H224JX9UQG;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/HeartRateProject/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.ipleiria.myhealthpulses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD46F5E1EEE398E0063D740 /* Build configuration list for PBXProject "HeartRateProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD46F731EEE398E0063D740 /* Debug */,
+				EAD46F741EEE398E0063D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD46F751EEE398E0063D740 /* Build configuration list for PBXNativeTarget "HeartRateProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD46F761EEE398E0063D740 /* Debug */,
+				EAD46F771EEE398E0063D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA1CA99F215BD897008B3CC9 /* ModelHeartRateMonitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA1CA9A0215BD897008B3CC9 /* ModelHeartRateMonitor.xcdatamodel */,
+			);
+			currentVersion = EA1CA9A0215BD897008B3CC9 /* ModelHeartRateMonitor.xcdatamodel */;
+			path = ModelHeartRateMonitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAD46F5B1EEE398E0063D740 /* Project object */;
+}

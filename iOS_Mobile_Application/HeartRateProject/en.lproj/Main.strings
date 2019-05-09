@@ -1,0 +1,165 @@
+
+/* Class = "UILabel"; text = "0% battery"; ObjectID = "07q-MM-zYp"; */
+"07q-MM-zYp.text" = "0% battery";
+
+/* Class = "UILabel"; text = "Max:"; ObjectID = "0aZ-KV-5wE"; */
+"0aZ-KV-5wE.text" = "Max:";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "1nA-Ik-v5y"; */
+"1nA-Ik-v5y.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Wrist"; ObjectID = "3vN-Ke-RiV"; */
+"3vN-Ke-RiV.normalTitle" = "Wrist";
+
+/* Class = "UILabel"; text = "Please turn Bluetooth on to use the app."; ObjectID = "401-a4-pIU"; */
+"401-a4-pIU.text" = "Please turn Bluetooth on to use the app.";
+
+/* Class = "UIButton"; normalTitle = "Other"; ObjectID = "69w-ye-CjM"; */
+"69w-ye-CjM.normalTitle" = "Other";
+
+/* Class = "UILabel"; text = "Tutorial"; ObjectID = "6gg-Ml-VgV"; */
+"6gg-Ml-VgV.text" = "Tutorial";
+
+/* Class = "UILabel"; text = "Min:"; ObjectID = "7lT-vY-Rlx"; */
+"7lT-vY-Rlx.text" = "Min:";
+
+/* Class = "UIButton"; normalTitle = "Chest"; ObjectID = "8Nl-wN-NI3"; */
+"8Nl-wN-NI3.normalTitle" = "Chest";
+
+/* Class = "UITabBarItem"; title = "HR Now"; ObjectID = "8Pn-sr-VwJ"; */
+"8Pn-sr-VwJ.title" = "HR Now";
+
+/* Class = "UILabel"; text = "Max:"; ObjectID = "8Y8-i1-sRk"; */
+"8Y8-i1-sRk.text" = "Max:";
+
+/* Class = "UILabel"; text = "83"; ObjectID = "9C0-4g-s06"; */
+"9C0-4g-s06.text" = "83";
+
+/* Class = "UITabBarItem"; title = "History"; ObjectID = "Ai7-W6-z6c"; */
+"Ai7-W6-z6c.title" = "History";
+
+/* Class = "UIButton"; normalTitle = "Scan for devices"; ObjectID = "Aib-LZ-Xx2"; */
+"Aib-LZ-Xx2.normalTitle" = "Scan for devices";
+
+/* Class = "UILabel"; text = "Please turn Bluetooth on to use the app."; ObjectID = "CXl-Kq-kzt"; */
+"CXl-Kq-kzt.text" = "Please turn Bluetooth on to use the app.";
+
+/* Class = "UILabel"; text = "Bluetooth Unavailable"; ObjectID = "Dku-cA-y9a"; */
+"Dku-cA-y9a.text" = "Bluetooth Unavailable";
+
+/* Class = "UITabBarItem"; title = "Now"; ObjectID = "FIH-sV-RN5"; */
+"FIH-sV-RN5.title" = "Now";
+
+/* Class = "UILabel"; text = "Device name:"; ObjectID = "FTs-Bn-qBX"; */
+"FTs-Bn-qBX.text" = "Device name:";
+
+/* Class = "UILabel"; text = "Min:"; ObjectID = "FVY-an-a3i"; */
+"FVY-an-a3i.text" = "Min:";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "Hrz-K0-52O"; */
+"Hrz-K0-52O.text" = "100";
+
+/* Class = "UIButton"; normalTitle = "Earlobe"; ObjectID = "KZb-Pf-CMR"; */
+"KZb-Pf-CMR.normalTitle" = "Earlobe";
+
+/* Class = "UILabel"; text = "Heart Rate"; ObjectID = "MbS-OP-MAK"; */
+"MbS-OP-MAK.text" = "Heart Rate";
+
+/* Class = "UIButton"; normalTitle = "Hand"; ObjectID = "NDo-19-yxc"; */
+"NDo-19-yxc.normalTitle" = "Hand";
+
+/* Class = "UILabel"; text = "NAME_OF_DEVICE"; ObjectID = "NiD-ug-j6y"; */
+"NiD-ug-j6y.text" = "NAME_OF_DEVICE";
+
+/* Class = "UILabel"; text = "Touch the box with the name device to connect"; ObjectID = "Nz0-mg-jNS"; */
+"Nz0-mg-jNS.text" = "Touch the box with the name device to connect";
+
+/* Class = "UIButton"; normalTitle = "Earlobe"; ObjectID = "PD1-d1-Y2v"; */
+"PD1-d1-Y2v.normalTitle" = "Earlobe";
+
+/* Class = "UIButton"; normalTitle = "Chest"; ObjectID = "Phx-Za-i8i"; */
+"Phx-Za-i8i.normalTitle" = "Chest";
+
+/* Class = "UILabel"; text = "99.38"; ObjectID = "Rrt-qt-dzT"; */
+"Rrt-qt-dzT.text" = "99.38";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "TSm-zz-ksH"; */
+"TSm-zz-ksH.normalTitle" = "X";
+
+/* Class = "UINavigationItem"; title = "Heart Rate Monitor"; ObjectID = "YON-NS-7yK"; */
+"YON-NS-7yK.title" = "Heart Rate Monitor";
+
+/* Class = "UILabel"; text = "CONNECTING..."; ObjectID = "Yfw-qG-H04"; */
+"Yfw-qG-H04.text" = "CONNECTING...";
+
+/* Class = "UILabel"; text = "BPM"; ObjectID = "YzX-uh-e6N"; */
+"YzX-uh-e6N.text" = "BPM";
+
+/* Class = "UILabel"; text = "Bluetooth Unavailable"; ObjectID = "e4l-2o-IaO"; */
+"e4l-2o-IaO.text" = "Bluetooth Unavailable";
+
+/* Class = "UINavigationItem"; title = "Heart Rate History"; ObjectID = "e5Y-xT-LHV"; */
+"e5Y-xT-LHV.title" = "Heart Rate History";
+
+/* Class = "UILabel"; text = "Tap the button \"Start Scanning\" to search for a Heart Rate device"; ObjectID = "enO-K5-snF"; */
+"enO-K5-snF.text" = "Tap the button \"Start Scanning\" to search for a Heart Rate device";
+
+/* Class = "UILabel"; text = "96.57"; ObjectID = "f2k-3s-xOb"; */
+"f2k-3s-xOb.text" = "96.57";
+
+/* Class = "UIButton"; normalTitle = "Foot"; ObjectID = "f4w-DV-TB4"; */
+"f4w-DV-TB4.normalTitle" = "Foot";
+
+/* Class = "UIButton"; normalTitle = "Hand"; ObjectID = "fpA-2a-bdf"; */
+"fpA-2a-bdf.normalTitle" = "Hand";
+
+/* Class = "UILabel"; text = "Measurement date"; ObjectID = "gDM-Rn-QhM"; */
+"gDM-Rn-QhM.text" = "Measurement date";
+
+/* Class = "UILabel"; text = "68"; ObjectID = "hBD-5x-4BT"; */
+"hBD-5x-4BT.text" = "68";
+
+/* Class = "UILabel"; text = "Select the body location where the sensor is located:"; ObjectID = "iq8-EC-F6x"; */
+"iq8-EC-F6x.text" = "Select the body location where the sensor is located:";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "jQ5-fN-uus"; */
+"jQ5-fN-uus.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "Finger"; ObjectID = "jdn-vd-Qcr"; */
+"jdn-vd-Qcr.normalTitle" = "Finger";
+
+/* Class = "UIButton"; normalTitle = "Other"; ObjectID = "kKN-P8-UAT"; */
+"kKN-P8-UAT.normalTitle" = "Other";
+
+/* Class = "UILabel"; text = "99.75"; ObjectID = "ksV-DA-X1y"; */
+"ksV-DA-X1y.text" = "99.75";
+
+/* Class = "UILabel"; text = "SpO2 (%)"; ObjectID = "ljm-Sa-YJ3"; */
+"ljm-Sa-YJ3.text" = "SpO2 (%)";
+
+/* Class = "UILabel"; text = "Select a device to connect"; ObjectID = "nuh-Yh-7D2"; */
+"nuh-Yh-7D2.text" = "Select a device to connect";
+
+/* Class = "UILabel"; text = "Select the body location where the sensor is located:"; ObjectID = "qRD-KN-5W1"; */
+"qRD-KN-5W1.text" = "Select the body location where the sensor is located:";
+
+/* Class = "UIButton"; normalTitle = "Wrist"; ObjectID = "utO-de-nnb"; */
+"utO-de-nnb.normalTitle" = "Wrist";
+
+/* Class = "UILabel"; text = "Body Location"; ObjectID = "vdm-nq-nGH"; */
+"vdm-nq-nGH.text" = "Body Location";
+
+/* Class = "UILabel"; text = "Battery Level:"; ObjectID = "xF2-M3-58e"; */
+"xF2-M3-58e.text" = "Battery Level:";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "xhZ-2A-eFS"; */
+"xhZ-2A-eFS.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ybG-5u-g88"; */
+"ybG-5u-g88.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Foot"; ObjectID = "yrc-Qo-TPX"; */
+"yrc-Qo-TPX.normalTitle" = "Foot";
+
+/* Class = "UIButton"; normalTitle = "Finger"; ObjectID = "yxj-3S-Jq3"; */
+"yxj-3S-Jq3.normalTitle" = "Finger";

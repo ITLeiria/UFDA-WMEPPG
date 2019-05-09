@@ -1,0 +1,99 @@
+
+/* Class = "UILabel"; text = "0% battery"; ObjectID = "07q-MM-zYp"; */
+"07q-MM-zYp.text" = "0% battery";
+
+/* Class = "UILabel"; text = "Max:"; ObjectID = "0aZ-KV-5wE"; */
+"0aZ-KV-5wE.text" = "Max:";
+
+/* Class = "UILabel"; text = "Please turn Bluetooth on to use the app."; ObjectID = "401-a4-pIU"; */
+"401-a4-pIU.text" = "Please turn Bluetooth on to use the app.";
+
+/* Class = "UILabel"; text = "Min:"; ObjectID = "7lT-vY-Rlx"; */
+"7lT-vY-Rlx.text" = "Min:";
+
+/* Class = "UITabBarItem"; title = "HR Now"; ObjectID = "8Pn-sr-VwJ"; */
+"8Pn-sr-VwJ.title" = "HR Now";
+
+/* Class = "UILabel"; text = "Max:"; ObjectID = "8Y8-i1-sRk"; */
+"8Y8-i1-sRk.text" = "Max:";
+
+/* Class = "UILabel"; text = "83"; ObjectID = "9C0-4g-s06"; */
+"9C0-4g-s06.text" = "83";
+
+/* Class = "UITabBarItem"; title = "History"; ObjectID = "Ai7-W6-z6c"; */
+"Ai7-W6-z6c.title" = "History";
+
+/* Class = "UIButton"; normalTitle = "Scan for devices"; ObjectID = "Aib-LZ-Xx2"; */
+"Aib-LZ-Xx2.normalTitle" = "Scan for devices";
+
+/* Class = "UITabBarItem"; title = "Now"; ObjectID = "FIH-sV-RN5"; */
+"FIH-sV-RN5.title" = "Now";
+
+/* Class = "UILabel"; text = "Device name:"; ObjectID = "FTs-Bn-qBX"; */
+"FTs-Bn-qBX.text" = "Device name:";
+
+/* Class = "UILabel"; text = "Min:"; ObjectID = "FVY-an-a3i"; */
+"FVY-an-a3i.text" = "Min:";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "Hrz-K0-52O"; */
+"Hrz-K0-52O.text" = "100";
+
+/* Class = "UILabel"; text = "Heart Rate"; ObjectID = "MbS-OP-MAK"; */
+"MbS-OP-MAK.text" = "Heart Rate";
+
+/* Class = "UILabel"; text = "NAME_OF_DEVICE"; ObjectID = "NiD-ug-j6y"; */
+"NiD-ug-j6y.text" = "NAME_OF_DEVICE";
+
+/* Class = "UILabel"; text = "Attach the sensors close to your body to measure"; ObjectID = "Nz0-mg-jNS"; */
+"Nz0-mg-jNS.text" = "Attach the sensors close to your body to measure";
+
+/* Class = "UILabel"; text = "99.38"; ObjectID = "Rrt-qt-dzT"; */
+"Rrt-qt-dzT.text" = "99.38";
+
+/* Class = "UINavigationItem"; title = "Heart Rate Monitor"; ObjectID = "YON-NS-7yK"; */
+"YON-NS-7yK.title" = "Heart Rate Monitor";
+
+/* Class = "UILabel"; text = "CONNECTING..."; ObjectID = "Yfw-qG-H04"; */
+"Yfw-qG-H04.text" = "CONNECTING...";
+
+/* Class = "UILabel"; text = "BPM"; ObjectID = "YzX-uh-e6N"; */
+"YzX-uh-e6N.text" = "BPM";
+
+/* Class = "UILabel"; text = "Bluetooth Unavailable"; ObjectID = "e4l-2o-IaO"; */
+"e4l-2o-IaO.text" = "Bluetooth Unavailable";
+
+/* Class = "UINavigationItem"; title = "Heart Rate History"; ObjectID = "e5Y-xT-LHV"; */
+"e5Y-xT-LHV.title" = "Heart Rate History";
+
+/* Class = "UILabel"; text = "The first results shows N/A and this means the measurments is still processing.\nThe results with asterisks means the last measurements."; ObjectID = "enO-K5-snF"; */
+"enO-K5-snF.text" = "The first results shows N/A and this means the measurments is still processing.\nThe results with asterisks means the last measurements.";
+
+/* Class = "UILabel"; text = "96.57"; ObjectID = "f2k-3s-xOb"; */
+"f2k-3s-xOb.text" = "96.57";
+
+/* Class = "UILabel"; text = "Measurement date"; ObjectID = "gDM-Rn-QhM"; */
+"gDM-Rn-QhM.text" = "Measurement date";
+
+/* Class = "UILabel"; text = "68"; ObjectID = "hBD-5x-4BT"; */
+"hBD-5x-4BT.text" = "68";
+
+/* Class = "UILabel"; text = "99.75"; ObjectID = "ksV-DA-X1y"; */
+"ksV-DA-X1y.text" = "99.75";
+
+/* Class = "UILabel"; text = "SpO2 (%)"; ObjectID = "ljm-Sa-YJ3"; */
+"ljm-Sa-YJ3.text" = "SpO2 (%)";
+
+/* Class = "UILabel"; text = "Select Device"; ObjectID = "nuh-Yh-7D2"; */
+"nuh-Yh-7D2.text" = "Select Device";
+
+/* Class = "UILabel"; text = "Body Location"; ObjectID = "vdm-nq-nGH"; */
+"vdm-nq-nGH.text" = "Body Location";
+
+/* Class = "UILabel"; text = "Battery Level:"; ObjectID = "xF2-M3-58e"; */
+"xF2-M3-58e.text" = "Battery Level:";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "xhZ-2A-eFS"; */
+"xhZ-2A-eFS.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ybG-5u-g88"; */
+"ybG-5u-g88.text" = "Label";
