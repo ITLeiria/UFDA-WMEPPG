@@ -85,6 +85,11 @@ extension UIColor {
         return UIColor(red: 77/255, green: 77/255, blue: 77/255, alpha: 1.0)
     }
     
+    class func customGreyishBrownOpacity75 () -> UIColor{
+        
+        return UIColor(red: 77/255, green: 77/255, blue: 77/255, alpha: 0.75)
+    }
+    
     class func customGreyishBrownOpacity50 () -> UIColor{
         
         return UIColor(red: 77/255, green: 77/255, blue: 77/255, alpha: 0.5)
