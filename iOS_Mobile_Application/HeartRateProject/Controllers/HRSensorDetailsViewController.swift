@@ -283,13 +283,16 @@ class HRSensorDetailsViewController: UIViewController, UITableViewDataSource, UI
                 dictX.updateValue(manuallyBodyLocation, forKey: "body_location")
                 
             } else {
+                var manuallyBodyLocation = String()
                 
                 let key = "\(indexPath.row)" + "_newBodyLocation"
-                let decoded  = UserDefaults.standard.object(forKey: key) as! Data
-                let decodedItem = NSKeyedUnarchiver.unarchiveObject(with: decoded) as! NSDictionary
+                let decoded  = UserDefaults.standard.object(forKey: key) as? Data
+                if decoded != nil {
+                    let decodedItem = NSKeyedUnarchiver.unarchiveObject(with: decoded!) as! NSDictionary
                 
-                let manuallyBodyLocation = decodedItem[indexPath.row]! as! String
-                
+                    manuallyBodyLocation = decodedItem[indexPath.row]! as! String
+                }
+                    
                 if manuallyBodyLocation.isEmpty || manuallyBodyLocation == "" {
                     var imgBodyLocal = "\(self.arraySensorBody[indexPath.row])"
                     if (imgBodyLocal.contains("_")) {
