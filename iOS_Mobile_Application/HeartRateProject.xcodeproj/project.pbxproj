@@ -21,6 +21,7 @@
 		EA2EFB5E207BC14400B6D417 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EFB5D207BC14400B6D417 /* LoadingViewController.swift */; };
 		EA2EFB60207BC4C400B6D417 /* HRSensorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EFB5F207BC4C400B6D417 /* HRSensorDetailsViewController.swift */; };
 		EA33D9D322493DFC00E4E9EA /* ExportHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA33D9D222493DFC00E4E9EA /* ExportHistoryViewController.swift */; };
+		EA3A75AB228F3BD100D2B236 /* TutorialHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A75AA228F3BD100D2B236 /* TutorialHistoryViewController.swift */; };
 		EA45F5E4216BB186003B6934 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45F5E3216BB186003B6934 /* ProgressView.swift */; };
 		EA45F5E6216BB2D5003B6934 /* UIColor+StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45F5E5216BB2D5003B6934 /* UIColor+StyleGuide.swift */; };
 		EA678F9222702B230034FD16 /* TutorialSelectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA678F9122702B230034FD16 /* TutorialSelectDeviceViewController.swift */; };
@@ -71,6 +72,7 @@
 		EA2EFB5D207BC14400B6D417 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		EA2EFB5F207BC4C400B6D417 /* HRSensorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRSensorDetailsViewController.swift; sourceTree = "<group>"; };
 		EA33D9D222493DFC00E4E9EA /* ExportHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportHistoryViewController.swift; sourceTree = "<group>"; };
+		EA3A75AA228F3BD100D2B236 /* TutorialHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialHistoryViewController.swift; sourceTree = "<group>"; };
 		EA45F5E3216BB186003B6934 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		EA45F5E5216BB2D5003B6934 /* UIColor+StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+StyleGuide.swift"; sourceTree = "<group>"; };
 		EA678F8F226E14A60034FD16 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				EA678F9122702B230034FD16 /* TutorialSelectDeviceViewController.swift */,
 				EA7FD071227062290054F030 /* TutorialHRSensorDetailsViewController.swift */,
 				EA7FD07322707AC30054F030 /* SelectBodySensorLocationViewController.swift */,
+				EA3A75AA228F3BD100D2B236 /* TutorialHistoryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				EA2EFB5E207BC14400B6D417 /* LoadingViewController.swift in Sources */,
 				EA8E7F082045952E00BF4E34 /* BLEDevicesTableViewCell.swift in Sources */,
 				EAD46F671EEE398E0063D740 /* AppDelegate.swift in Sources */,
+				EA3A75AB228F3BD100D2B236 /* TutorialHistoryViewController.swift in Sources */,
 				EA96085C2277353400369A34 /* HRSensorDetailTableViewCell.swift in Sources */,
 				EA74523622389E4F001BCDE4 /* DataService.swift in Sources */,
 				EA74523422389A7D001BCDE4 /* HealthData.swift in Sources */,

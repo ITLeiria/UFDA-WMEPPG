@@ -30,7 +30,7 @@
                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="HRSensorDetailTableViewCell" rowHeight="200" id="Ux0-Z0-jyC" customClass="HRSensorDetailTableViewCell" customModule="HeartRateProject" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="27" width="375" height="200"/>
+                                                <rect key="frame" x="0.0" y="28" width="375" height="200"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ux0-Z0-jyC" id="IzP-Pl-Zda">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
@@ -877,6 +877,7 @@
                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
                             <connections>
                                 <action selector="showInfoFromHistory:" destination="Qvf-PK-g0E" id="nZ8-La-omj"/>
+                                <segue destination="q5n-0e-fJb" kind="presentation" modalTransitionStyle="crossDissolve" id="Vc8-cI-TJ6"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="weN-8K-vgk">
@@ -893,6 +894,88 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fD-Q4-MfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2318" y="913"/>
+        </scene>
+        <!--Tutorial History View Controller-->
+        <scene sceneID="BWb-x6-fEQ">
+            <objects>
+                <viewController id="q5n-0e-fJb" customClass="TutorialHistoryViewController" customModule="HeartRateProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DxV-fr-cYD"/>
+                        <viewControllerLayoutGuide type="bottom" id="VAQ-Ui-AZl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aym-Ym-rvO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tutorial_History" translatesAutoresizingMaskIntoConstraints="NO" id="jiO-6H-Wrh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIB-sH-zoC">
+                                <rect key="frame" x="315" y="607" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HIB-sH-zoC" secondAttribute="height" multiplier="1:1" id="Rnd-6K-MBT"/>
+                                    <constraint firstAttribute="width" constant="40" id="gNZ-5p-8W3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="28"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.59215686270000001" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.59215686270000001" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="closeTutorialHistory:" destination="q5n-0e-fJb" eventType="touchUpInside" id="gkR-eP-Ldg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch the button to share the history in a csv file" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4F-xT-CwM">
+                                <rect key="frame" x="7.5" y="129" width="360" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.85236491250000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch the cell to see more details" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uj0-YT-XL9">
+                                <rect key="frame" x="7.5" y="352.5" width="360" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.85236491250000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jiO-6H-Wrh" firstAttribute="height" secondItem="aym-Ym-rvO" secondAttribute="height" id="2UO-cV-Ei2"/>
+                            <constraint firstItem="uj0-YT-XL9" firstAttribute="width" secondItem="jiO-6H-Wrh" secondAttribute="width" multiplier="0.96" id="5sT-C1-iE4"/>
+                            <constraint firstItem="jiO-6H-Wrh" firstAttribute="width" secondItem="aym-Ym-rvO" secondAttribute="width" id="5u6-VF-Nai"/>
+                            <constraint firstItem="V4F-xT-CwM" firstAttribute="centerY" secondItem="jiO-6H-Wrh" secondAttribute="centerY" multiplier="0.45" id="9iO-hu-dZ0"/>
+                            <constraint firstItem="uj0-YT-XL9" firstAttribute="centerX" secondItem="jiO-6H-Wrh" secondAttribute="centerX" id="Gz7-Gy-Fbz"/>
+                            <constraint firstItem="jiO-6H-Wrh" firstAttribute="centerY" secondItem="aym-Ym-rvO" secondAttribute="centerY" id="L5H-ve-8AM"/>
+                            <constraint firstItem="V4F-xT-CwM" firstAttribute="centerX" secondItem="jiO-6H-Wrh" secondAttribute="centerX" id="OKm-2l-s4z"/>
+                            <constraint firstItem="jiO-6H-Wrh" firstAttribute="centerX" secondItem="aym-Ym-rvO" secondAttribute="centerX" id="Oab-hJ-bGc"/>
+                            <constraint firstAttribute="trailing" secondItem="HIB-sH-zoC" secondAttribute="trailing" constant="20" id="d4o-MW-oHO"/>
+                            <constraint firstItem="VAQ-Ui-AZl" firstAttribute="top" secondItem="HIB-sH-zoC" secondAttribute="bottom" constant="20" id="isn-9e-HPY"/>
+                            <constraint firstItem="V4F-xT-CwM" firstAttribute="width" secondItem="jiO-6H-Wrh" secondAttribute="width" multiplier="0.96" id="ljP-hR-koc"/>
+                            <constraint firstItem="uj0-YT-XL9" firstAttribute="centerY" secondItem="jiO-6H-Wrh" secondAttribute="centerY" multiplier="1.12" id="m1q-oc-ZGW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblDescCellDetails" destination="uj0-YT-XL9" id="nuk-EJ-rso"/>
+                        <outlet property="lblDescShareButton" destination="V4F-xT-CwM" id="X9C-lh-Aap"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SSe-l4-s1U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2318" y="1714"/>
         </scene>
         <!--History Details View Controller-->
         <scene sceneID="fAa-t3-t2A">
@@ -1325,6 +1408,7 @@
         <image name="Bluetooth_icon" width="256" height="256"/>
         <image name="Icn_FeedBack_Alert" width="32" height="32"/>
         <image name="Tutorial_HRM_Measuring_C" width="633" height="1125"/>
+        <image name="Tutorial_History" width="633" height="1125"/>
         <image name="Tutorial_SelectDevice_C0" width="633" height="1125"/>
         <image name="body_chest" width="356" height="356"/>
         <image name="body_earlobe" width="356" height="356"/>
