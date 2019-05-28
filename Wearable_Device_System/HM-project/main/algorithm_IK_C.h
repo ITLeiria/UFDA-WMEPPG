@@ -13,6 +13,7 @@
  *-CITATION-----------------------------------------------------------------
  *  If you use this software please cite one of the following papers:
  *
+ *  Wireless Smartphone-based Monitoring of Multiple Pulse-Oximetry Sensors
  *
  *-DESCRIPTION--------------------------------------------------------------
  *
